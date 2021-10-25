@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&display=swap');
+
+body
+{
+  background-image: url('backmain.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'IBM Plex Sans Arabic';
+}
+
+.logo-box img
+{
+  width: 110px;
+  height: 110px;
+}
+
+.logo-box
+{
+  margin: 0 auto 0;
+  align-items: center;
+  background-color: white;
+  width: 110px;
+  height: 110px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 30px
+}
+
+#p1
+{
+  width: 400px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+
+.login-box
+
+{
+  text-align: center;
+  margin-left: 550px;
+  margin-right: 550px;
+  margin-top: 50px;
+  margin-bottom: 120px;
+  background-color: white;
+  width: 410px;
+  height: 340px;
+  border: none;
+  border-radius: 10px
+}
+
+.login-box input
+{
+  direction: rtl;
+  width: 370px;
+  height: 50px;
+  margin-left: 20px;
+  margin-left: 20px;
+  margin-right: 20px
+}
+
+.login-box #title1
+{
+  padding-top: 20px
+}
+
+.login-box #i1, #i2
+{
+  border: none;
+  border-bottom: solid gray;
+  border-width: 1px;
+  outline: none;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-family: 'IBM Plex Sans Arabic'
+}
+
+.login-box #i1
+{
+  position:
+}
+
+.login-box #bt1
+{
+  color: white;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  background-color: #e9486d;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+    font-family: 'IBM Plex Sans Arabic'
+}
+
+.login-box #bt1:hover
+{
+  cursor: pointer;
+  background-color: #cd1842;
+}
+
+.login-box #i1:hover, #i2:hover
+{
+  border-bottom: solid black;
+  border-width: 2px
+}
+
+#p2
+{
+  margin-top: 5px;
+  text-align: right;
+  color: black;
+  margin-right: 20px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#r1
+{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+  margin-right: 100px;
+  margin-bottom: 0px;
+  margin-top: 16px;
+}
+
+#r1:hover
+{
+  background-color: #f2f2f2;
+}
